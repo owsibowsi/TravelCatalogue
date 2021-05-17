@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Oskar\\Documents\\WebDeveloper Projekter\\TravelCatalogue\\TravelCatalogue\\TravelCatalogue.csproj": {}
+    "C:\\Users\\Lamar\\source\\repos\\TravelCatalogue\\TravelCatalogue\\TravelCatalogue.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Oskar\\Documents\\WebDeveloper Projekter\\TravelCatalogue\\TravelCatalogue\\TravelCatalogue.csproj": {
+    "C:\\Users\\Lamar\\source\\repos\\TravelCatalogue\\TravelCatalogue\\TravelCatalogue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oskar\\Documents\\WebDeveloper Projekter\\TravelCatalogue\\TravelCatalogue\\TravelCatalogue.csproj",
+        "projectUniqueName": "C:\\Users\\Lamar\\source\\repos\\TravelCatalogue\\TravelCatalogue\\TravelCatalogue.csproj",
         "projectName": "TravelCatalogue",
-        "projectPath": "C:\\Users\\Oskar\\Documents\\WebDeveloper Projekter\\TravelCatalogue\\TravelCatalogue\\TravelCatalogue.csproj",
-        "packagesPath": "C:\\Users\\Oskar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oskar\\Documents\\WebDeveloper Projekter\\TravelCatalogue\\TravelCatalogue\\obj\\",
+        "projectPath": "C:\\Users\\Lamar\\source\\repos\\TravelCatalogue\\TravelCatalogue\\TravelCatalogue.csproj",
+        "packagesPath": "C:\\Users\\Lamar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lamar\\source\\repos\\TravelCatalogue\\TravelCatalogue\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Oskar\\AppData\\Roaming\\NuGet\\NuGet.Config",
