@@ -155,3 +155,4 @@ C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\
 C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\obj\Debug\net5.0\TravelCatalogue.pdb
 C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\obj\Debug\net5.0\TravelCatalogue.genruntimeconfig.cache
 C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\obj\Debug\net5.0\Razor\Views\Shared\_Destination.cshtml.g.cs
+C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\obj\Debug\net5.0\Razor\Views\Shared\_ForsideLand.cshtml.g.cs
