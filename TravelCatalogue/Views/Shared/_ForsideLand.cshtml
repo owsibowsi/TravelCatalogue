@@ -1,0 +1,16 @@
+﻿@model TravelCatalogue.Models.BoxTips
+@using TravelCatalogue.Models;
+
+
+    <div class="leftbox">
+        <h2></h2>
+        <p></p>
+        <div class="infoboxes">
+            <div class="infobox">@Model.Culture</div>
+            <div class="infobox">@Model.Food</div>
+            <div class="infobox">@Model.Transport</div>
+        </div>
+    </div>
+    <div class="rightbox">
+        <img src="/Images/@Model.ImageFileName" alt="@Model.Title" style="width:100%" />
+    </div>
