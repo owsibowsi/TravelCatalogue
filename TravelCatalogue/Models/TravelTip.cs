@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
+#nullable disable
 
 namespace TravelCatalogue.Models
 {
-    public class TravelTip
+    public partial class Traveltip
     {
-        public string Title { get; set; }
-        public string description { get; set; }
-        public string imageFileName { get; set; }
+        public short TraveltipId { get; set; }
+        public string TraveltipName { get; set; }
+        public string TraveltipDescription { get; set; }
+        public string TraveltipImage { get; set; }
+        public short? DestinationId { get; set; }
 
-
+        public virtual Destination Destination { get; set; }
     }
 }

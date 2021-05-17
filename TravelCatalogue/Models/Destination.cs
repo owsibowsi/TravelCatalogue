@@ -1,22 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
+#nullable disable
 
 namespace TravelCatalogue.Models
 {
-    public class Destination
+    public partial class Destination
     {
-        private string Country { get; set; }
-        private string City { get; set; }
-        private string Description { get; set; }
-        public string imageSilhoutte { get; set; }
-        public string imageFlag { get; set; }
+        public Destination()
+        {
+            Attractions = new HashSet<Attraction>();
+            Traveltips = new HashSet<Traveltip>();
+        }
 
-        private List<string> inspirationImages { get; } = new List<string>();
-        private List<Attraction> attractions { get; } = new List<Attraction>();
+        public short DestinationId { get; set; }
+        public string City { get; set; }
+        public string Country { get; set; }
+        public string Description { get; set; }
+        public string ImageSilhoutte { get; set; }
+        public string ImageFlag { get; set; }
 
-        private List<TravelTip> travelTips { get; set; } = new List<TravelTip>();
-
+        public virtual ICollection<Attraction> Attractions { get; set; }
+        public virtual ICollection<Traveltip> Traveltips { get; set; }
     }
 }
