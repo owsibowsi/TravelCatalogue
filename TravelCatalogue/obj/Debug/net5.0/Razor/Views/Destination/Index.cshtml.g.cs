@@ -2,10 +2,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "b0cc705bb46bca7c6eddb0d6e47e797627b53ad7"
 =======
 #pragma checksum "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "32f2966ee650b1a97a499f971fb2227a92e9fdbd"
 >>>>>>> parent of 6498df4 (design page changes)
+=======
+#pragma checksum "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "b0cc705bb46bca7c6eddb0d6e47e797627b53ad7"
+>>>>>>> parent of e83874c (layout destination)
 =======
 #pragma checksum "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "b0cc705bb46bca7c6eddb0d6e47e797627b53ad7"
 >>>>>>> parent of e83874c (layout destination)
@@ -52,7 +56,11 @@ using WebMatrix.Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"32f2966ee650b1a97a499f971fb2227a92e9fdbd", @"/Views/Destination/Index.cshtml")]
+=======
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b0cc705bb46bca7c6eddb0d6e47e797627b53ad7", @"/Views/Destination/Index.cshtml")]
+>>>>>>> parent of e83874c (layout destination)
 =======
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b0cc705bb46bca7c6eddb0d6e47e797627b53ad7", @"/Views/Destination/Index.cshtml")]
 >>>>>>> parent of e83874c (layout destination)
@@ -111,6 +119,7 @@ using WebMatrix.Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b0cc705bb46bca7c6eddb0d6e47e797627b53ad73985", async() => {
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "32f2966ee650b1a97a499f971fb2227a92e9fdbd3865", async() => {
@@ -118,6 +127,12 @@ using WebMatrix.Data;
                 WriteLiteral("\r\n    <div class=\"leftbox\">\r\n        <h1 style=\"font-size: 80px; \">");
 #nullable restore
 #line 13 "C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b0cc705bb46bca7c6eddb0d6e47e797627b53ad73865", async() => {
+                WriteLiteral("\r\n    <div class=\"leftbox\">\r\n        <h1 style=\"font-size: 80px; \">");
+#nullable restore
+#line 13 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+>>>>>>> parent of e83874c (layout destination)
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b0cc705bb46bca7c6eddb0d6e47e797627b53ad73865", async() => {
                 WriteLiteral("\r\n    <div class=\"leftbox\">\r\n        <h1 style=\"font-size: 80px; \">");
@@ -146,7 +161,11 @@ using WebMatrix.Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 13 "C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+=======
+#line 13 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+>>>>>>> parent of e83874c (layout destination)
 =======
 #line 13 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
 >>>>>>> parent of e83874c (layout destination)
@@ -166,7 +185,11 @@ using WebMatrix.Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 15 "C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+=======
+#line 15 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+>>>>>>> parent of e83874c (layout destination)
 =======
 #line 15 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
 >>>>>>> parent of e83874c (layout destination)
@@ -187,7 +210,11 @@ using WebMatrix.Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 20 "C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+=======
+#line 20 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+>>>>>>> parent of e83874c (layout destination)
 =======
 #line 20 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
 >>>>>>> parent of e83874c (layout destination)
@@ -209,7 +236,11 @@ WriteAttributeValue("", 458, des.ImageFlag, 458, 14, false);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 23 "C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+=======
+#line 23 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+>>>>>>> parent of e83874c (layout destination)
 =======
 #line 23 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
 >>>>>>> parent of e83874c (layout destination)
@@ -229,7 +260,11 @@ WriteAttributeValue("", 458, des.ImageFlag, 458, 14, false);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 24 "C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+=======
+#line 24 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+>>>>>>> parent of e83874c (layout destination)
 =======
 #line 24 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
 >>>>>>> parent of e83874c (layout destination)
@@ -250,7 +285,11 @@ WriteAttributeValue("", 458, des.ImageFlag, 458, 14, false);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 26 "C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+=======
+#line 26 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+>>>>>>> parent of e83874c (layout destination)
 =======
 #line 26 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
 >>>>>>> parent of e83874c (layout destination)
@@ -269,7 +308,11 @@ WriteAttributeValue("", 458, des.ImageFlag, 458, 14, false);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 26 "C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+=======
+#line 26 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
+>>>>>>> parent of e83874c (layout destination)
 =======
 #line 26 "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Destination\Index.cshtml"
 >>>>>>> parent of e83874c (layout destination)
