@@ -26,7 +26,7 @@ namespace TravelCatalogue.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=.\\SQLExpress01;Database=TravelCatalogueDB;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS01;Database=TravelCatalogueDB;Trusted_Connection=True;");
             }
         }
 
@@ -87,6 +87,11 @@ namespace TravelCatalogue.Models
                     .HasMaxLength(45)
                     .IsUnicode(false)
                     .HasColumnName("country");
+
+                entity.Property(e => e.CoverImage)
+                    .HasMaxLength(500)
+                    .IsUnicode(false)
+                    .HasColumnName("coverImage");
 
                 entity.Property(e => e.Description)
                     .IsRequired()

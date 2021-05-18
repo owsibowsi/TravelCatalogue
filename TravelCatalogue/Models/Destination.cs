@@ -19,6 +19,7 @@ namespace TravelCatalogue.Models
         public string Description { get; set; }
         public string ImageSilhoutte { get; set; }
         public string ImageFlag { get; set; }
+        public string CoverImage { get; set; }
 
         public virtual ICollection<Attraction> Attractions { get; set; }
         public virtual ICollection<Traveltip> Traveltips { get; set; }
