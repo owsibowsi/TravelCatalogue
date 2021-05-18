@@ -12,14 +12,9 @@
     color: white;
 }
 
-h1 {
+h1{
     font-size: 100px;
 }
-.coverImage {
-    width: 99vw;
-    height: 70vh
-}
-
 .rightbox {
     display: flex;
     flex-direction: column;
@@ -38,7 +33,7 @@ h1 {
     width: 50%;
     text-align: end;
 }
-
+  
 
 .leftbox {
     display: flex;
@@ -55,37 +50,36 @@ h1 {
     width: 50%;
     text-align: start;
 }
-
 .container-fluid {
     padding: 0;
 }
 
-.globebox {
+.globebox{
     display: flex;
     width: 100%;
     justify-content: center;
 }
-
 .innerglobe {
     width: 70%;
     display: flex;
     flex-direction: row;
+
 }
 
 .minusmargin {
     margin-top: -90px;
 }
 
-    .minusmargin img {
-        width: 70%;
-    }
-
-.discoverleft {
-    text-align: left;
-    font-size: 70px;
+.minusmargin img{
+    width: 70%;
 }
 
-.discoverright {
+.discoverleft{
+    text-align: left;
+    font-size: 70px;
+
+}
+.discoverright{
     text-align: right;
     font-size: 70px;
 }

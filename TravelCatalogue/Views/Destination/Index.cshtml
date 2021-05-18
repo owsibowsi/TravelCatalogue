@@ -6,22 +6,17 @@
 }
 @{
     ViewData["Title"] = "Home Page";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-
 }
 
 <body>
-    <div class="coverImage">
-        <img class="coverImage" src="@des.CoverImage" />
-    </div>
-    <div>
+    <div class="leftbox">
         <h1 style="font-size: 80px; ">@des.City, @des.Country</h1>
 
         <h2>@des.Description</h2>
 
     </div>
 
-    <div>
+    <div class="rightbox">
         <img src="@des.ImageFlag" />
     </div>
 
