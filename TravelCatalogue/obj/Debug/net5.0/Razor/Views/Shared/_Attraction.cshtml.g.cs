@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "C:\Users\Oskar\Documents\WebDeveloper Projekter\TravelCatalogue\TravelCatalogue\Views\Shared\_Attraction.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "8ac7a3ca823d90f6d20d4a1a64d88cb618376581"
+=======
+#pragma checksum "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Shared\_Attraction.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "8ac7a3ca823d90f6d20d4a1a64d88cb618376581"
+>>>>>>> parent of e83874c (layout destination)
 =======
 #pragma checksum "C:\Users\Lamar\source\repos\TravelCatalogue\TravelCatalogue\Views\Shared\_Attraction.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "8ac7a3ca823d90f6d20d4a1a64d88cb618376581"
 >>>>>>> parent of e83874c (layout destination)
