@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "tWT6ruFYzUfylZ4yTer2vjIrIv1EqUlmTyjjPUu9Dm1EirR+/XAB0RbaR/jZDxber1hYEGUr4JUyb6I1LcAgQg==",
+  "dgSpecHash": "PT+Jg/WT5esVbFYpyekjAfC5bsO7lUcM6hReFi1hBA/A1JIjWkw6rJzu7eWxs7OR9zq2N0vGEk0dmIoKKvYcgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lamar\\source\\repos\\TravelCatalogue\\TravelCatalogue\\TravelCatalogue.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lamar\\.nuget\\packages\\entityframework\\5.0.0\\entityframework.5.0.0.nupkg.sha512",
     "C:\\Users\\Lamar\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Lamar\\.nuget\\packages\\microsoft.aspnet.webpages.data\\2.0.20710\\microsoft.aspnet.webpages.data.2.0.20710.nupkg.sha512",
+    "C:\\Users\\Lamar\\.nuget\\packages\\microsoft.aspnet.webpages.webdata\\2.0.20710\\microsoft.aspnet.webpages.webdata.2.0.20710.nupkg.sha512",
     "C:\\Users\\Lamar\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Lamar\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Lamar\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0\\microsoft.aspnetcore.razor.language.5.0.0.nupkg.sha512",
@@ -128,7 +130,8 @@
     "C:\\Users\\Lamar\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Lamar\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Lamar\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Lamar\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Lamar\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Lamar\\.nuget\\packages\\webmatrix.webdata\\2.0.30506\\webmatrix.webdata.2.0.30506.nupkg.sha512"
   ],
   "logs": [
     {
@@ -137,6 +140,26 @@
       "warningLevel": 1,
       "message": "Package 'EntityFramework 5.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "EntityFramework",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebPages.Data 2.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebPages.Data",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebPages.WebData 2.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebPages.WebData",
       "targetGraphs": [
         "net5.0"
       ]

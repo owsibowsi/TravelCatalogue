@@ -1,0 +1,24 @@
+﻿@using TravelCatalogue.Models;
+@using WebMatrix.Data;
+@{
+    TravelCatalogueDBContext db = new TravelCatalogueDBContext();
+    var des = db.Destinations.Where(d => d.City == "Tokyo").FirstOrDefault();
+}
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<body>
+    <div class="leftbox">
+        <h1 style="font-size: 80px; ">@des.City, @des.Country</h1>
+
+        <h2>@des.Description</h2>
+
+    </div>
+
+    <div class="rightbox">
+        <img src="@des.ImageFlag" />
+    </div>
+
+</body>
+
