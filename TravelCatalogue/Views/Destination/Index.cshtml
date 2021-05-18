@@ -19,6 +19,13 @@
     <div class="rightbox">
         <img src="@des.ImageFlag" />
     </div>
+    <div>
+        <h2>ATTRACTIONS IN @des.City</h2>
+        @foreach (Attraction att in db.Attractions.Where(a => a.DestinationId == des.DestinationId))
+        {
+            @await Html.PartialAsync("_Attraction", att)
+        }
+    </div>
 
 </body>
 
