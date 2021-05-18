@@ -6,28 +6,28 @@
 }
 @{
     ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<body>
+<body style="        background-image: url(https://cdn.pling.com/img/a/2/a/5/31c196d644d2563de72a36b8eb862141afd0.jpg);
+        background-size: cover;
+        background-repeat: no-repeat">
     <div style="position: absolute; right: 100px; bottom: 120px; color: white; text-align: end">
         <h1 style="font-size: 80px; ">Travel</h1>
         <h2>Disover Your Surroundings<br /> - The World Is Waiting</h2>
 
-    </div>
-
-    <section>
-
-        <div class="tips" style="clear:both">
-            <h2></h2>
-            @foreach (var des in destinations)
-            {
-                <div><h1>@des.City</h1></div>
-                @await Html.PartialAsync("_ForsideLand", des)
-            }
+    <section class="headerbox">
+        <div class="leftbox">
+            <h4>Ready To Explore?</h4>
+            <img src="~/images/arrowdown.png" alt="Arrow down" />
         </div>
-        }
-    </section>
+        <div class="rightbox">
+            <h1 class="mainfont">TRAVEL</h1>
+            <h3 class="mainfont">The World Is Waiting</h3>
+        </div>
 
-
+    
+    
 </body>
+
 
