@@ -1,4 +1,6 @@
-﻿@{
+﻿@model TravelCatalogue.Models.BoxTips
+@using TravelCatalogue.Models;
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -11,7 +13,19 @@
 
     </div>
 
-    
-    
+    <section>
+        @if (Model.BoxTips.OfType<BoxTips>().ToList().Count > 0)
+        {
+            <div class="tips" style="clear:both">
+                <h2>@Model.Title</h2>
+                @foreach (BoxTips boxTips in Model.BoxTips.OfType<BoxTips>().ToList())
+                {
+                    @await Html.PartialAsync("_ForsideLand")
+                }
+            </div>
+        }
+    </section>
+
+
 </body>
 
