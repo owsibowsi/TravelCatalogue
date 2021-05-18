@@ -7253,19 +7253,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lamar\\.nuget\\packages\\": {}
+    "C:\\Users\\Oskar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lamar\\source\\repos\\TravelCatalogue\\TravelCatalogue\\TravelCatalogue.csproj",
+      "projectUniqueName": "C:\\Users\\Oskar\\Documents\\WebDeveloper Projekter\\TravelCatalogue\\TravelCatalogue\\TravelCatalogue.csproj",
       "projectName": "TravelCatalogue",
-      "projectPath": "C:\\Users\\Lamar\\source\\repos\\TravelCatalogue\\TravelCatalogue\\TravelCatalogue.csproj",
-      "packagesPath": "C:\\Users\\Lamar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lamar\\source\\repos\\TravelCatalogue\\TravelCatalogue\\obj\\",
+      "projectPath": "C:\\Users\\Oskar\\Documents\\WebDeveloper Projekter\\TravelCatalogue\\TravelCatalogue\\TravelCatalogue.csproj",
+      "packagesPath": "C:\\Users\\Oskar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Oskar\\Documents\\WebDeveloper Projekter\\TravelCatalogue\\TravelCatalogue\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lamar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Oskar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7336,11 +7336,17 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Oskar\\Documents\\WebDeveloper Projekter\\TravelCatalogue\\TravelCatalogue\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
     {
       "code": "NU1701",
       "level": "Warning",
